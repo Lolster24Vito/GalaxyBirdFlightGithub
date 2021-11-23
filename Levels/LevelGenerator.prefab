@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1699205916329249924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1699205916329249926}
+  - component: {fileID: 1699205916329249927}
+  m_Layer: 0
+  m_Name: LevelGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1699205916329249926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699205916329249924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1699205916329249927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699205916329249924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3b5901e3bd6455429e70d08301007b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelLenght: 44.79
+  startPos: {x: 44.79, y: 0, z: 0}
+  numberOfRooms: 50
+  numberOfCurrentSpawnedRoom: 0
+  levels111:
+  - levelEndOpenings: 1
+    levelGameObject: {fileID: 7738689253180961865, guid: 8dc4c31e53d9e5b42a7483b85e4d9926,
+      type: 3}
+  - levelEndOpenings: 2
+    levelGameObject: {fileID: 108586742538217472, guid: f4882c2508b667d4c9fe7fb69f0913ae,
+      type: 3}
+  - levelEndOpenings: 3
+    levelGameObject: {fileID: 1152042302744930087, guid: b5e5c38071e77af4188d965872a03d0a,
+      type: 3}
+  levels001:
+  - levelEndOpenings: 1
+    levelGameObject: {fileID: 6718105791134300613, guid: 804a6cc03ed673b42b757646c7f2de13,
+      type: 3}
+  - levelEndOpenings: 1
+    levelGameObject: {fileID: 749841959920898756, guid: aabd55f4ef58ac94ca153d8b31533ad3,
+      type: 3}
+  - levelEndOpenings: 2
+    levelGameObject: {fileID: 8682657631635965879, guid: ff2a5f57301218f47a3fb5a7ad355802,
+      type: 3}
+  - levelEndOpenings: 2
+    levelGameObject: {fileID: 6104216524536737904, guid: 8a3f07f4262e2384ba801f60a3f0428c,
+      type: 3}
+  - levelEndOpenings: 3
+    levelGameObject: {fileID: 7819996967396178232, guid: 9c78f64bbff6ca34b89abb9e333fc586,
+      type: 3}
+  - levelEndOpenings: 3
+    levelGameObject: {fileID: 6589428367010353213, guid: 785a4925cf1e61b48a2fa2e469a9dbdb,
+      type: 3}
+  - levelEndOpenings: 0
+    levelGameObject: {fileID: 1619811556332947235, guid: 033c441853164bc4493a6204d48c224c,
+      type: 3}
+  - levelEndOpenings: 0
+    levelGameObject: {fileID: 2496697542105194548, guid: 73e97daf9ebee314c9f67a9442f03fbd,
+      type: 3}
+  - levelEndOpenings: 3
+    levelGameObject: {fileID: 8957558828301404844, guid: 97e36b431ccaecc48a81ab7e520998dd,
+      type: 3}
+  - levelEndOpenings: 2
+    levelGameObject: {fileID: 4660176228760441264, guid: 6174c1aec6db77148a34e988c24eb0b9,
+      type: 3}
+  - levelEndOpenings: 3
+    levelGameObject: {fileID: 8957558828301404844, guid: 97e36b431ccaecc48a81ab7e520998dd,
+      type: 3}
+  - levelEndOpenings: 0
+    levelGameObject: {fileID: 3812226084185703399, guid: 91d91b44d82892a45931f780141a6808,
+      type: 3}
+  levels010:
+  - levelEndOpenings: 0
+    levelGameObject: {fileID: 1301651997823217367, guid: ff57443f818c0724185848aef7d05cb9,
+      type: 3}
+  - levelEndOpenings: 1
+    levelGameObject: {fileID: 8604925005090095889, guid: b9feb44b9f2586b439f6889c5bde6f0c,
+      type: 3}
+  - levelEndOpenings: 3
+    levelGameObject: {fileID: 6521093861807260286, guid: d424e52ae4eb7f541af870b217f1a066,
+      type: 3}
+  - levelEndOpenings: 3
+    levelGameObject: {fileID: 4886000520930411830, guid: 3b9b5d700ee234642b942bccc32f7895,
+      type: 3}
+  - levelEndOpenings: 2
+    levelGameObject: {fileID: 6935975849184696203, guid: 92ceedb0d362994419c0b2acc0c96945,
+      type: 3}
+  - levelEndOpenings: 2
+    levelGameObject: {fileID: 1616822520544505555, guid: 951683d473805fe4db663034dff1ea15,
+      type: 3}
+  - levelEndOpenings: 2
+    levelGameObject: {fileID: 983371816965189388, guid: 9dda3e1508b77904a8446f3e18185b84,
+      type: 3}
+  - levelEndOpenings: 2
+    levelGameObject: {fileID: 1898646906724455784, guid: 18d75daf76052de4595414569a23b726,
+      type: 3}
+  - levelEndOpenings: 2
+    levelGameObject: {fileID: 5284320080041234056, guid: 8665f67abcdcc81469da8622cf236990,
+      type: 3}
+  - levelEndOpenings: 2
+    levelGameObject: {fileID: 5113979462812965505, guid: c9bbed7f63e978b42b1b41618c87bccd,
+      type: 3}
+  - levelEndOpenings: 2
+    levelGameObject: {fileID: 1616822520544505555, guid: 951683d473805fe4db663034dff1ea15,
+      type: 3}
+  - levelEndOpenings: 2
+    levelGameObject: {fileID: 1746679434860663086, guid: 0315a67c798d90a4b8b1f3b23cd2c0e8,
+      type: 3}
+  - levelEndOpenings: 2
+    levelGameObject: {fileID: 4803337749026884641, guid: 834f7277fcfa5e040afc6deec859ba52,
+      type: 3}
+  - levelEndOpenings: 3
+    levelGameObject: {fileID: 4745600245247403207, guid: 3bb235228ae15624993d3261f8bd7c2f,
+      type: 3}
+  - levelEndOpenings: 3
+    levelGameObject: {fileID: 6006866930161692923, guid: 59412354608001b4c8745224bac8717d,
+      type: 3}
+  levels100:
+  - levelEndOpenings: 0
+    levelGameObject: {fileID: 2359893391856565197, guid: 97b84405472802a47a2e79e7e917cc51,
+      type: 3}
+  - levelEndOpenings: 0
+    levelGameObject: {fileID: 645911961686685128, guid: ca2390bca52e37b42a7d7a10684364d8,
+      type: 3}
+  - levelEndOpenings: 1
+    levelGameObject: {fileID: 6466231464892591842, guid: d81b139a23223ca43a15a92a02cd94d1,
+      type: 3}
+  - levelEndOpenings: 1
+    levelGameObject: {fileID: 2154253882242871170, guid: 5204edea16ca38143a4f7ada34f5341c,
+      type: 3}
+  - levelEndOpenings: 2
+    levelGameObject: {fileID: 1569552518324927005, guid: 68918e1a87564ee488c5faff3ab14bcf,
+      type: 3}
+  - levelEndOpenings: 2
+    levelGameObject: {fileID: 6801759892233850722, guid: a6c51c65cd1ab264b8235419009b1f0c,
+      type: 3}
+  - levelEndOpenings: 3
+    levelGameObject: {fileID: 8671650747086747730, guid: 825b2b5e42c04084f8f8d4301399b74d,
+      type: 3}
+  - levelEndOpenings: 3
+    levelGameObject: {fileID: 5554472809814604104, guid: 735d2bf282b3094488daa8434cdeb37e,
+      type: 3}
+  - levelEndOpenings: 1
+    levelGameObject: {fileID: 5814271803657283819, guid: 8b81e072d6d3c914a9f7caed1649772b,
+      type: 3}
+  - levelEndOpenings: 2
+    levelGameObject: {fileID: 4559372800207811103, guid: 4cdf44be4fd0b6f49a69792ba7373f55,
+      type: 3}
+  parentGameobject: {fileID: 0}
+  latestLevel: {fileID: 0}

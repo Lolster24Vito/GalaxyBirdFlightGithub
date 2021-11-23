@@ -1,0 +1,55 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Audio;
+
+public class MusicManager : MonoBehaviour
+{
+    int counter = 0;
+    [System.Serializable]
+    public struct MusicLayer
+    {
+        public int beginScore;
+        public int fullVolumeScore;
+        public string audioMixerVolumeParameterName;
+        public float startValue;
+        public float endValue;
+
+    }
+    [System.Serializable]
+    public struct Song
+    {
+        public MusicLayer[] musicLayers;
+        public int endScore;
+        public AudioMixer audioMixer;
+    }
+  
+    [SerializeField]Song[] Music;
+    // Start is called before the first frame update
+    private float prevScore = 0;
+
+    // Update is called once per frame
+    void Update()
+    {
+        float score = PlayerScoreManager.score;
+        if (Music[counter].endScore < score)
+        {
+            counter++;
+        }
+        if (prevScore != score)
+        {
+            prevScore = score;
+            for (int i = 0; i < Music[counter].musicLayers.Length; i++)
+            {
+                MusicLayer musicLayer = Music[counter].musicLayers[i];
+                if (musicLayer.beginScore <= score&&musicLayer.fullVolumeScore>score)
+                {
+
+                    float volume = Mathf.Lerp(musicLayer.startValue, musicLayer.endValue, (score - musicLayer.beginScore) / (musicLayer.fullVolumeScore - musicLayer.beginScore));
+                    Music[counter].audioMixer.SetFloat(musicLayer.audioMixerVolumeParameterName, volume);
+                }
+
+            }
+        }
+    }
+}
